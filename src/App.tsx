@@ -9,6 +9,7 @@ import RadioSiNo from './components/select'
 import Button from './components/button'
 import { faCalendar, faClock, faLocation} from '@fortawesome/free-solid-svg-icons'
 import { faPersonDress } from '@fortawesome/free-solid-svg-icons/faPersonDress'
+import Countdown from './components/contador'
 
 function App() {
   const [nombre,setNombre]=useState('')
@@ -41,7 +42,6 @@ function App() {
   return (
 <div className="min-h-screen w-full bg-[#F4EEE8] flex justify-center mt-10 px-4">
   <div className="flex flex-col bg-white w-full sm:w-2/3 max-w-3xl rounded-2xl overflow-hidden mb-10">
-
           <Header />
         <div className='flex flex-col p-5'>
           <p className='text-[#bd6725] font-bold text-3xl'>
@@ -75,9 +75,7 @@ function App() {
             Cuenta regresiva
           </h2>
           <div className='flex justify-center'>
-            <p className='text-red-300'>
-              Proximamente
-            </p>
+            <Countdown targetDate="2025-06-28T08:30:00" />
           </div>
         </div>
         <div className='flex flex-col p-5 mb-5'>
