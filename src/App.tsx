@@ -75,7 +75,7 @@ function App() {
             Cuenta regresiva
           </h2>
           <div className='flex justify-center'>
-            <Countdown targetDate="2025-06-28T08:30:00" />
+            <Countdown targetDate="2025-06-28T20:30:00" />
           </div>
         </div>
         <div className='flex flex-col p-5 mb-5'>
