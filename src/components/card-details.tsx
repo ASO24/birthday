@@ -1,4 +1,4 @@
-import { faCalendar, type IconDefinition } from "@fortawesome/free-solid-svg-icons"
+import { type IconDefinition } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import type { FC } from "react"
 
