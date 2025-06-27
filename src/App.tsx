@@ -39,8 +39,9 @@ function App() {
     }
   }
   return (
-    <div className="min-h-screen w-screen bg-[#F4EEE8] flex justify-center mt-10">
-       <div className="flex flex-col bg-white w-2/3  rounded-2xl overflow-hidden mb-10">
+<div className="min-h-screen w-full bg-[#F4EEE8] flex justify-center mt-10 px-4">
+  <div className="flex flex-col bg-white w-full sm:w-2/3 max-w-3xl rounded-2xl overflow-hidden mb-10">
+
           <Header />
         <div className='flex flex-col p-5'>
           <p className='text-[#bd6725] font-bold text-3xl'>
