@@ -34,6 +34,7 @@ function Home() {
     }
     const res = await insertarAsistente(nuevo)
     if (res?.success) {
+      alert('registrado!')
       setNombre('')
       setmessaje('')
       setAsistencia(false)
