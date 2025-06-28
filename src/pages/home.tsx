@@ -62,7 +62,7 @@ function Home() {
             <CardDetails
               icon={faLocation}
               title='Lugar'
-              description='Valinor'
+              description='búho'
             />
             <CardDetails
               icon={faPersonDress}
